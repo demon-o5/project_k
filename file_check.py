@@ -28,6 +28,6 @@ def rename_file(filename,new_name=None):
     os.rename(filename,new_name)
     print(f"File renamed to {new_name}")
 
-#m=create_file('file_2.txt')
-rename_file('file_1.txt')
+#m=create_file('file_2.txt') this is used to create
+#rename_file('file_1.txt') this is used to rename the file
     
