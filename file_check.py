@@ -1,6 +1,5 @@
 import os
 import datetime
-#comments added
 def create_file(filename):
     try:
         with open(filename,'w') as f:
