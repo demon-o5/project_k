@@ -8,6 +8,11 @@ def create_file(filename):
     except Exception as e:
         print("unable to create the file")
 
+def check_file(filename):
+    '''this is  used to chec the file is empty or not'''
+    if os.path.getsize(filename) ==0:
+        raise Exception ("file is empty")
+
 def remove_file_name(filename):
     '''this function is used to check and remove the file '''
     if os.path.exists(filename):
